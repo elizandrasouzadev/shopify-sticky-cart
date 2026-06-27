@@ -151,6 +151,21 @@ nav {
 .specs-table td { padding: 0.65rem 0; border-bottom: 1px solid var(--border); color: var(--muted); }
 .specs-table td:first-child { color: var(--ink); font-weight: 500; width: 40%; }
 
+.review {
+  border-left: 2px solid var(--border);
+  padding-left: 1.25rem;
+  margin-top: 0.25rem;
+}
+
+.review-author {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--ink);
+  margin-bottom: 0.35rem;
+}
+
+.review p { font-size: 0.9rem; }
+
 .sticky-bar {
   position: fixed;
   bottom: 0; left: 0; right: 0;
